@@ -28,32 +28,58 @@ export default function DropshippingCourses() {
         Dropshipping Course
       </h1>
       <div className="w-full max-w-3xl space-y-6">
-      
-          <div
-           
-            className={`shadow-md rounded-lg p-4 ${
-              darkMode ? "bg-gray-800" : "bg-white"
-            }`}
-          >
-            Introduction to Dropshipping
-            <h2 className="text-xl font-semibold">Getting Started with Dropshipping</h2>
-            <p className={`text-gray-600 ${darkMode ? "text-gray-300" : ""}`}>
-            
-            </p>
-            <div className="mt-4">
-              <iframe
-                title="Video Player"
-                width="100%"
-                height="315"
-                // src={course.iframeSrc}
-                frameBorder="0"
-                allowFullScreen
-                allow="autoplay; fullscreen"
-                src="https://player.hotmart.com/embed/NRkPGJpeqe?signature=LVyZCyDEph_xPExHHnZucwK3XHAVNlMCHewERIqzRViC7T0eaRpte33cyABGJp3CxGHkTzW9x1X0g_a5bZm7R8v2zmFQGhyanL9SSh2Y4ta0ADPKzLQeBKPl7bP8YNAROUkSBzFQoqKQRd-ta3TZPDDVKaB0P2AfSZdiIWSJ2hgGWrsWGFoNPCw_AY2zSGS9f6CyDByNhJhWpAukyGpTgDn1SMZsjZyRC6-Ys7_mx35zfFRL_P_vl3idNT4wQO67yTg87jieDtEQ2dC7q2EhVMqt7DkVkSnJx2Jhee4Q_BQoaD68lSOCd18-3AOLKObg4ud9HNL-rEZAFkGz58zS7g%3D%3D&amp;token=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c&amp;user=112196706"
-              ></iframe>
-            </div>
+        <div
+          className={`shadow-md rounded-lg p-4 ${
+            darkMode ? "bg-gray-800" : "bg-white"
+          }`}
+        >
+          Introduction to Dropshipping
+          <h2 className="text-xl font-semibold">
+            Getting Started with Dropshipping
+          </h2>
+          <p className={`text-gray-600 ${darkMode ? "text-gray-300" : ""}`}></p>
+          <div className="mt-4">
+            <iframe
+              title="Video Player"
+              width="100%"
+              height="315"
+              // src={course.iframeSrc}
+              frameBorder="0"
+              allowFullScreen
+              allow="autoplay; fullscreen"
+              src="https://player.hotmart.com/embed/NRkPGJpeqe?signature=LVyZCyDEph_xPExHHnZucwK3XHAVNlMCHewERIqzRViC7T0eaRpte33cyABGJp3CxGHkTzW9x1X0g_a5bZm7R8v2zmFQGhyanL9SSh2Y4ta0ADPKzLQeBKPl7bP8YNAROUkSBzFQoqKQRd-ta3TZPDDVKaB0P2AfSZdiIWSJ2hgGWrsWGFoNPCw_AY2zSGS9f6CyDByNhJhWpAukyGpTgDn1SMZsjZyRC6-Ys7_mx35zfFRL_P_vl3idNT4wQO67yTg87jieDtEQ2dC7q2EhVMqt7DkVkSnJx2Jhee4Q_BQoaD68lSOCd18-3AOLKObg4ud9HNL-rEZAFkGz58zS7g%3D%3D&amp;token=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c&amp;user=112196706"
+            ></iframe>
           </div>
-      
+        </div>
+      </div>
+      <div className="w-full max-w-3xl space-y-6 m-10">
+        <div
+          className={`shadow-md rounded-lg p-4 ${
+            darkMode ? "bg-gray-800" : "bg-white"
+          }`}
+        >
+          Introduction to Dropshipping
+          <h2 className="text-xl font-semibold">
+            General vs Niche based store{" "}
+          </h2>
+          <p className={`text-gray-600 ${darkMode ? "text-gray-300" : ""}`}></p>
+          <div className="mt-4">
+            <iframe
+              title="Video Player"
+              frameborder="0"
+              scrolling="no"
+                 width="100%"
+              height="315"
+              class="rzhNp FjS60"
+              name="hotmart_embed"
+              data-testid="embed-player"
+              referrerpolicy="strict-origin"
+              allowfullscreen=""
+              allow="autoplay; fullscreen"
+              src="https://player.hotmart.com/embed/QZP0Q98zZw?signature=l0KgtAfWaX9Yy-8-m5ij3aE-VHP0A3uOEaOBclkMaAYm3rhBoEPkXKOTRbd7G80l3bm55Yz-kTPwZTh_bKxdagHuTPBh9wwBOLi5CHRhkcxr3xBukIERZBECIBUuYt2y8YuUK6F53X_VaqlmHcTp-9HmLV_hr8GdIYB-3-NnWqVdJWdK2ZwbizcH00C1qJzcVjyTgzhbNhjwiGE-1Wju7kTRt06-EWbZbmj_cP-H_AAEQjJL1CbsY1kt83IpiGgbVtwrh8jI-hVeLzBVKmaFitX_4AiyevHIUoBxysnPIGYSDQO76nlxi2zqYKA8QcCDg9FPELRzo7P6h2tp2q1j5Q%3D%3D&amp;token=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c&amp;user=112196706"
+            ></iframe>
+          </div>
+        </div>
       </div>
     </div>
   );
