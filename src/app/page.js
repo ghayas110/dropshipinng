@@ -27,7 +27,7 @@ export default function DropshippingCourses() {
       <h1 className="text-3xl font-bold text-center mb-6">
         Dropshipping Course
       </h1>
-      <h3>          Introduction to Dropshipping</h3>
+      <h3> Introduction to Dropshipping</h3>
       <div className="w-full max-w-3xl space-y-6">
         <div
           className={`shadow-md rounded-lg p-4 ${
@@ -42,13 +42,17 @@ export default function DropshippingCourses() {
           <div className="mt-4">
             <iframe
               title="Video Player"
+              frameborder="0"
               width="100%"
               height="315"
-              // src={course.iframeSrc}
-              frameBorder="0"
-              allowFullScreen
+              scrolling="no"
+              class="rzhNp FjS60"
+              name="hotmart_embed"
+              data-testid="embed-player"
+              referrerpolicy="strict-origin"
+              allowfullscreen
               allow="autoplay; fullscreen"
-              src="https://player.hotmart.com/embed/NRkPGJpeqe?signature=LVyZCyDEph_xPExHHnZucwK3XHAVNlMCHewERIqzRViC7T0eaRpte33cyABGJp3CxGHkTzW9x1X0g_a5bZm7R8v2zmFQGhyanL9SSh2Y4ta0ADPKzLQeBKPl7bP8YNAROUkSBzFQoqKQRd-ta3TZPDDVKaB0P2AfSZdiIWSJ2hgGWrsWGFoNPCw_AY2zSGS9f6CyDByNhJhWpAukyGpTgDn1SMZsjZyRC6-Ys7_mx35zfFRL_P_vl3idNT4wQO67yTg87jieDtEQ2dC7q2EhVMqt7DkVkSnJx2Jhee4Q_BQoaD68lSOCd18-3AOLKObg4ud9HNL-rEZAFkGz58zS7g%3D%3D&amp;token=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c&amp;user=112196706"
+              src="https://player.hotmart.com/embed/NRkPGJpeqe?signature=Ew6GnsjTsVY_heyIUzoP8M080gO2_K5nEEIGLKrVcXahYmvtnXLJRNB9R3ZVEDo5D7a9yMosatBsQoACV4Og5Z0zZkLXc04XwQnT8AbU0LTQsmr-DBJzPy1-EsAxAe-8QLp4rz6WymTMa6J1Idt-Cb9p8MoGpnh565r8235Xl0V9Bb4x4743CLuKybRcE8gSZCU8wBKZFQPaL3SzG6PxO2Xzanr-jV9MSjvazmMIw3kafZxi6tIrF8aXulmWl5M3FP0AY5SOp9TVj-xN_nOWfqvZMcXLTuvKfNjuYs7Cs_qFiXtUiw_fnoFru63G2Kb7DX4krxk8wEn4Y-DiJaNLnA%3D%3D&amp;token=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c&amp;user=112196706"
             ></iframe>
           </div>
         </div>
@@ -69,14 +73,15 @@ export default function DropshippingCourses() {
               title="Video Player"
               frameborder="0"
               scrolling="no"
-              width="100%"
+                width="100%"
               height="315"
               class="rzhNp FjS60"
               name="hotmart_embed"
               data-testid="embed-player"
-              allowFullScreen
+              referrerpolicy="strict-origin"
+              allowfullscreen
               allow="autoplay; fullscreen"
-              src="https://player.hotmart.com/embed/QZP0Q98zZw?signature=l0KgtAfWaX9Yy-8-m5ij3aE-VHP0A3uOEaOBclkMaAYm3rhBoEPkXKOTRbd7G80l3bm55Yz-kTPwZTh_bKxdagHuTPBh9wwBOLi5CHRhkcxr3xBukIERZBECIBUuYt2y8YuUK6F53X_VaqlmHcTp-9HmLV_hr8GdIYB-3-NnWqVdJWdK2ZwbizcH00C1qJzcVjyTgzhbNhjwiGE-1Wju7kTRt06-EWbZbmj_cP-H_AAEQjJL1CbsY1kt83IpiGgbVtwrh8jI-hVeLzBVKmaFitX_4AiyevHIUoBxysnPIGYSDQO76nlxi2zqYKA8QcCDg9FPELRzo7P6h2tp2q1j5Q%3D%3D&amp;token=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c&amp;user=112196706"
+              src="https://player.hotmart.com/embed/QZP0Q98zZw?signature=64fGHBIKpMHlRdLb1lrRBG6c8bE9RQbW7trL07ilwAA0-p8mIeVVJSWrTaHRBL63V1pnBi2cfigFUmxcYbaymv_Wq1ryFEURAjZpwZsD0snZckHxrWnEzFnKCgUQVeCEO7akMUbRHZkwnaM3Rjyx6yB93GAcHbiyg-H6HUae6YXwYBQhN9Ku38LQJASeqwt7R5fp5edePi2RuOrouZ3yIbxuMeYcreX2HmtkbJv_E5CcRQhhDo0tNHoIDRDyZhtHivocAPVkQy4qhu3ImR_CFZ_C0Lr3FWCQJEVWo1ckiUUKaYhHKKbkw0hxBqP44jbU09fJE0Fd_eIDuoeemLOTRA%3D%3D&amp;token=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c&amp;user=112196706"
             ></iframe>
           </div>
         </div>
@@ -87,7 +92,6 @@ export default function DropshippingCourses() {
             darkMode ? "bg-gray-800" : "bg-white"
           }`}
         >
-
           <h2 className="text-xl font-semibold">
             Expetation an Issues in Dropshipping{" "}
           </h2>
@@ -97,11 +101,13 @@ export default function DropshippingCourses() {
               title="Video Player"
               frameborder="0"
               scrolling="no"
+                width="100%"
+              height="315"
               class="rzhNp FjS60"
               name="hotmart_embed"
               data-testid="embed-player"
               referrerpolicy="strict-origin"
-              allowfullscreen=""
+              allowfullscreen
               allow="autoplay; fullscreen"
               src="https://player.hotmart.com/embed/5Z1e0X4AZX?signature=kmRRI1K-sgRc_r-jRO7cf5_K9QSl1XYEJdzMsGdqa0Yi3yhniJvNuCR7-x_mvw3hO-bZvB2MWDx-82L0qFTkEmWX_tGmUrSZ5salQRrj9nbV6AB_2hlXRmws1MTHd3U325mnAFdbPu1Sj2gcTNfVBpJBumlTJrcUxIMgIaatQnnH2a1n7z5up_MvJUV1nMSKSOTZKgHx85Y-Lr-vjOA_3hDSD-tkIHrKn2CH3rFC2iPnA321JLbHemqUV3A2tTmIJdy4wXWURKgv6QOCDJVXCkzJSnYMsWN5J22aLOe7UZuDQX4XRzpNwY8FknyMCCmF-IniBEm9mRSH_UG85_H0Hw%3D%3D&amp;token=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c&amp;user=112196706"
             ></iframe>
